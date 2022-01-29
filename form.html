@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            form{
+                border-style: solid;
+                border-radius: 10px;
+                background-image: url(resimler/html5.jpeg);
+                color:white;
+                font-family: cursive;
+                font-variant: small-caps;
+                text-decoration: underline;
+                text-transform:lowercase;
+            }
+            .first{
+               background-color:grey;
+               font-style: italic;
+               border-color: black;
+            }
+            .second{
+               background-color:grey;
+               font-style: italic;
+               border-style: solid;
+               position:relative;
+               left: 52px;
+               border-color: black;
+            }
+            .thirst{
+                background-color:grey;
+                font-style: italic;
+                border-style: solid;
+                position: relative;
+                left: 36px;
+                border-color: black;
+            }
+            .button{
+                background-color: crimson;
+                border-style:solid;
+                border-radius: 7px;
+                position: relative;
+                left: 100px;
+                font-family:cursive;
+            }
+            .reset{
+                background-color: crimson;
+                border-style:solid;
+                border-radius: 7px;
+                position: relative;
+                left: 100px;
+                font-family:cursive;
+            }
+        </style>
+    </head>
+    <body>
+        <form >
+            Name Surname <input type="text" class="first" required>
+            <br>
+            E-mail <input type="email" class="second" required>
+            <br>
+            Message: <textarea cols="30" rows="10" class="thirst">
+            </textarea>
+            <br>
+            <input type="submit" class="button" >
+            <input type="reset"  class="reset">
+        </form>
+    </body>
+</html>
